@@ -173,7 +173,7 @@ a:hover {
 .nav_logo_subtitle {
     color: #2C3E50;
     font-weight: 500;
-    font-size: 10px;
+    font-size: 11px;
     
 }
 
@@ -617,8 +617,12 @@ a:hover {
 .steps_description_text {
     padding-top: 28px;
     padding-bottom: 28px;
-    border-top: 5px solid #2980B9;
-    border-bottom: 5px solid #2980B9;
+    border-top: 1px solid #2980B9;
+    border-bottom: 1px solid #2980B9;
+}
+
+.steps_description_text b {
+    color: #2980B9;
 }
 .steps_items {
     width: 63%;
